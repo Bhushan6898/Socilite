@@ -1,0 +1,34 @@
+/* For small screens (max-width: 576px) */
+@media (max-width: 576px) {
+    .user-info h2 {
+      font-size: 1.5rem; /* Smaller font for mobile */
+    }
+  
+    .user-info p {
+      font-size: 1rem; /* Adjust bio and username font size */
+    }
+  
+    .social-link {
+      font-size: 0.9rem; /* Make social links smaller */
+    }
+  
+    .social-links {
+      text-align: center; /* Ensure they stack on mobile */
+    }
+  
+    .btn-primary {
+      padding: 10px; /* Adjust button padding for smaller screens */
+    }
+  }
+  
+  /* For medium screens (tablets) */
+  @media (min-width: 576px) and (max-width: 992px) {
+    .user-info h2 {
+      font-size: 1.75rem;
+    }
+  
+    .user-info p {
+      font-size: 1.1rem;
+    }
+  }
+  
